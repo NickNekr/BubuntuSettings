@@ -50,3 +50,6 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 apt-get update
 apt-get install nodejs -y
 apt-get install xclip
+pip install neovim
+pip install black
+pip install pynvim
