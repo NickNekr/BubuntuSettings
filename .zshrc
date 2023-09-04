@@ -1,7 +1,8 @@
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 PATH="/home/nik/.local/bin":"$PATH"
+PATH="/home/nik/.cargo/bin":"$PATH"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
